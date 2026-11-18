@@ -18,7 +18,7 @@ This repository contains the original Jupyter Notebook and a modular Python-sour
 
 ### Research workflow
 
-![3D computational pipeline](assets/quantum_pipeline_3d.png)
+![3D computational pipeline](QEthylene_Professional_Repo/assets/quantum_pipeline_3d.png)
 
 ### What the notebook covers
 
