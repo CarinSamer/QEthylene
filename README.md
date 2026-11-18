@@ -4,7 +4,7 @@
 
 **From ethylene's molecular orbitals to quantum algorithms, excited states, noise and electron transfer.**
 
-![Ethylene 3D geometry](assets/ethylene_3d_geometry.png)
+![Ethylene 3D geometry](QEthylene_Professional_Repo/assets/ethylene_3d_geometry.png)
 
 </div>
 
