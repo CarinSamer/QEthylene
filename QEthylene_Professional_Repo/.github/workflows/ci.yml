@@ -1,0 +1,20 @@
+name: Static validation
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate notebook JSON
+        run: python -c "import json; json.load(open('QEthylene_Final_Project.ipynb', encoding='utf-8'))"
+      - name: Compile extracted Python source (no execution)
+        run: python -m compileall -q src/qethylene

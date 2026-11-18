@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qethylene"
+version = "0.1.0"
+description = "Modular source organization of the QEthylene quantum simulation notebook"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "matplotlib",
+  "scipy",
+  "qiskit",
+  "qiskit-aer",
+  "qiskit-nature",
+  "pyscf",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
